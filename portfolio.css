@@ -4,6 +4,10 @@
 	font-size: 18px !important;
 }
 
+#short-intro a{
+	color: white !important;
+}
+
 .btn:hover{
 	color: #fff !important;
 }
@@ -17,19 +21,67 @@ ul{
 	list-style-type: none;
 }
 
-.btn-envelop:hover{
-	color: !important;
+#contact-info .btn-envelop:hover{
+	color: #cc9d8c !important;
 }
 
-.btn-linkedIn{
-	color: !important;
+#contact-info .btn-linkedIn:hover{
+	color: #0a66c2 !important;
 }
 
-.personDetail{
+#contact-info .btn-twitter:hover{
+	color: #1da1f2 !important;
+}
+
+#contact-info .btn-gitHub:hover{
+	color: grey !important;
+}
+
+.my-intro{
 	background-image: url('https://bs-assets.toptal.io/blackfish-assets/bg-design_dd336b.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 20%;
+    height: 630px;
     max-width: 100%;
     color: white !important;
+    padding-top: 160px;
+}
+
+#projects,#hobbies{
+	background: lightgrey;
+	margin-bottom: 12px;
+}
+
+.arrowicon:hover{
+	color: white !important;
+}
+
+
+#education{
+	background-color: #111;
+	color: white;
+}
+
+#education a{
+	color: white !important;
+}
+
+#contact-info{
+	margin-bottom: -12px;
+	background-color: black;
+	color: white;
+}
+
+#contact-info .btn{
+	color: white !important;
+}
+
+
+#posts-button>a{
+	color: white;
+}
+
+hr{
+	color: white;
+    border: 1px solid;
 }
