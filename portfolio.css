@@ -1,0 +1,35 @@
+
+.btn{
+	color: #111 !important;
+	font-size: 18px !important;
+}
+
+.btn:hover{
+	color: #fff !important;
+}
+
+img{
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul{
+	list-style-type: none;
+}
+
+.btn-envelop:hover{
+	color: !important;
+}
+
+.btn-linkedIn{
+	color: !important;
+}
+
+.personDetail{
+	background-image: url('https://bs-assets.toptal.io/blackfish-assets/bg-design_dd336b.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20%;
+    max-width: 100%;
+    color: white !important;
+}
