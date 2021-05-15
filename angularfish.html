@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Glowing Angular Fish</title>
+</head>
+<style type="text/css">
+	/*img{
+		filter: drop-shadow(0px 0px 5px red)
+				drop-shadow(0px 0px 10px green)
+				drop-shadow(0px 0px 15px blue)
+				drop-shadow(0px 0px 20px black);
+	}*/
+
+	html{
+		background-color: #142c4a;
+	}
+
+	.glow{
+		margin-left: -46px; 
+		height: 30%;
+		width: 30%;
+		border-radius: 100%;
+		position: absolute;
+
+    	margin-top: -12px;
+		opacity: 0.7;
+		background:radial-gradient(circle, rgba(87, 255, 233, 0.8) 0%, rgba(122, 202, 196, 0) 30%);
+		animation-name: glowing;
+		animation-duration: 1s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+		mix-blend-mode: hard-light;
+		animation-fill-mode: none;
+		animation-timing-function: ease-in-out;
+		animation-delay: 0s;
+	}
+
+	@keyframes glowing{
+		from{
+			transform: scale(1);
+			}
+		to{
+			transform: scale(2);
+		}
+	}
+</style>
+<body>
+	<section style="margin-top:30px;">
+		<div class="glow">	
+		</div>
+		<img src="https://laracon.net/2020/assets/images/elements/angler-fish.png" alt="fish">
+		
+	</section>
+</body>
+</html>
